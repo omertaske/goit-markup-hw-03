@@ -225,11 +225,12 @@ body{
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    
 
 }
 
 .foursect-ulli{
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .foursect-ullidiv{
     padding: 32px 16px;
