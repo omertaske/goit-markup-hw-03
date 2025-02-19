@@ -118,7 +118,7 @@ body{
 }
 
 .visually-hidden{
-    overflow: hidden;
+    visibility: hidden;
 }
 .secttwo-li{
     width: calc((100% - 72px) / 4);
@@ -170,6 +170,7 @@ body{
 }
 .thersect-li{
     background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
 
 
 }
@@ -184,7 +185,7 @@ body{
 .thersect-lihuc{
     font-weight: 500;
     width: calc((100% - 72px) / 4);
-    border-radius: 0px 0px 4px 4px;
+    
     font-size: 20px;
     line-height: 1.2;
     text-align: center;
