@@ -20,6 +20,11 @@ body{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color:  #4d5ae5;
+    margin-right: 76px;
+}
+.nav-ul{
+    display: flex;
+    gap: 40px;
 }
 .nav-span{
     color: #2e2f42;
@@ -32,8 +37,13 @@ body{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
     color: #2e2f42;
 
+}
+.navadres-ul{
+    display: flex;
+    gap: 40px;
 }
 .nav-lione:hover{
     color: #404bbf;
@@ -105,6 +115,13 @@ body{
 .secttwo-self{
     padding: 120px 0;
 
+}
+
+.visually-hidden{
+    overflow: hidden;
+}
+.secttwo-li{
+    width: calc((100% - 72px) / 4);
 }
 
 .twosect-ull{
@@ -218,6 +235,7 @@ body{
     border: 1px solid #e7e9fc;
     border-top: none;
     margin-bottom: 8px;
+    border-radius: 0px 0px 4px 4px;
 
 }
 
