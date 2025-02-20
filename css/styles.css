@@ -241,7 +241,7 @@ body{
 }
 
 .foursect-ulli{
-    width: calc((100% - 48px) / 3);
+    width: calc((100% - 72px) / 3);
 }
 
 .foursect-ullidiv{
@@ -333,4 +333,5 @@ h4,
 h5,
 h6 {
   margin: 0;
+  list-style: none;
 }
