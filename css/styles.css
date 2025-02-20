@@ -245,7 +245,7 @@ body{
 }
 
 .foursect-ullidiv{
-    margin-bottom: 8px;
+    
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
@@ -255,6 +255,7 @@ body{
 
 
 .foursect-huc{
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -323,4 +324,13 @@ img{
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
 }
